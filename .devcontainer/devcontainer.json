@@ -1,0 +1,19 @@
+{
+    "name": "DATA SCIENCE ENV",
+
+    "build": {
+        "dockerfile": "../docker/Dockerfile",
+        "context": "..",
+    },
+
+    "settings": {
+        "terminal.integrated.automationShell.linux": "/bin/bash",
+        "workbench.colorTheme": "Palenight Theme",
+    },
+
+    "extensions": [
+        "whizkydee.material-palenight-theme",
+        "ms-python.python",
+    ],
+
+}
