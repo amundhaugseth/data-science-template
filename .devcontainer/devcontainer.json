@@ -8,12 +8,19 @@
 
     "settings": {
         "terminal.integrated.automationShell.linux": "/bin/bash",
+        "terminal.integrated.inheritEnv": false,
+        "python.terminal.activateEnvironment": true,
+        "python.pythonPath": "ds-env",
         "workbench.colorTheme": "Palenight Theme",
+        "jupyter.experiments.optInto": ["CustomEditor"],
+        "jupyter.alwaysTrustNotebooks": true,
     },
 
     "extensions": [
         "whizkydee.material-palenight-theme",
         "ms-python.python",
+        "ms-toolsai.jupyter",
+        "grapecity.gc-excelviewer",
     ],
 
 }
