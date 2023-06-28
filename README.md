@@ -2,7 +2,7 @@
 
 This repository provides a GitHub template for a Python data science development environment using Micromamba, a small and fast Conda environment manager. The environment is containerized using Docker and configured for use with Visual Studio Code's [Development Containers](https://code.visualstudio.com/docs/devcontainers/containers)
 
-## Project Structure
+## File Structure
 
 - `.devcontainer/`:
   - `dev-conda-environment.yaml`: This file specifies the Python environment for the development container.
